@@ -49,18 +49,17 @@
 						<li><a href="article/square/" class="<?php if ($_GET['app'] == 'article') { ?>active<?php } ?>"><?php _e('文章'); ?></a></li> -->
 						
 						<li><a href="topic/" <?php if ($_GET['app'] == 'topic') { ?>class="active"<?php } ?>><?php _e('话题'); ?></a></li>
-						
-						<li><a href="people/list/" <?php if ($_GET['app'] == 'people') { ?>class="active"<?php } ?>><?php _e('用户'); ?></a></li>
 						<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown" href="#">其它站点</a>
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">其它</a>
 							<ul class="dropdown-menu" role="menu">
 								<li><a href="https://www.anthonos.org/">主站</a></li>
 								<li><a href="https://bugs.anthonos.org/">反馈</a></li>
-								<li><a href="https://repo.anthonos.org/">源码</a></li>
+								<li><a href="http://repo.anthonos.org/">Repo</a></li>
 								<li><a href="https://wiki.anthonos.org/">百科</a></li>
 								<li><a href="http://github.com/AOSC-Dev/">GitHub</a></li>
 								<li><a href="http://l10n.anthonos.org/">本地化</a></li>
 								<li><a href="http://pastebin.anthonos.org/">剪贴板</a></li>
+								<li><a href="people/list/" <?php if ($_GET['app'] == 'people') { ?>class="active"<?php } ?>><?php _e('用户'); ?></a></li>
 							</ul>
 						</li>
 						
